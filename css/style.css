@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+body, * {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  background-color: black;
+  color: white;
+  padding: 20px 20px;
+  border-radius: 10px;
+  max-width: 350px;
+  margin: 0px auto;
+  font-size: 45px;
+  margin-top: 50px;
+}
+
+/* 3*3 Grid */
+#b1, #b2, #b3, #b4, #b5,
+#b6, #b7, #b8, #b9 {
+  width: 80px;
+  height: 80px;
+  margin: auto;
+  margin: 0px 10px;
+  border: 1px solid black;
+  border-radius: 6px;
+  font-size: 30px;
+  text-align: center;
+}
+
+#but {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 95px;
+  height: 40px;
+  text-align: center;
+  border: 1px solid black;
+  margin: auto;
+  border-radius: 4px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+#print {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #a5a5a5;
+  font-size: 20px;
+}
+
+#main {
+  text-align: center;
+}
+
+#ins {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #ababab;
+  font-size: 17px;
+}
+
+@media only screen and (max-width: 768px) {
+  h1 {
+    background-color: black;
+    color: white;
+    padding: 15px 15px;
+    border-radius: 10px;
+    max-width: 300px;
+    margin: 0px auto;
+    font-size: 35px;
+    margin-top: 50px;
+  }
+  #b1, #b2, #b3, #b4, #b5,
+  #b6, #b7, #b8, #b9 {
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    margin: 0px 5px;
+    border: 1px solid black;
+    border-radius: 6px;
+    font-size: 26px;
+    text-align: center;
+  }
+}
+/*# sourceMappingURL=style.css.map */
